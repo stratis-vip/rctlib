@@ -1,2 +1,3 @@
 import { TimerComponent } from './components/timer';
-export { TimerComponent };
+import { TimeComponent } from './components/time';
+export { TimerComponent, TimeComponent };
