@@ -1,9 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TimerComponent = void 0;
-const timer_1 = __importDefault(require("./components/timer"));
-exports.TimerComponent = timer_1.default;
+const timer_1 = require("./components/timer");
+Object.defineProperty(exports, "TimerComponent", { enumerable: true, get: function () { return timer_1.TimerComponent; } });
 //# sourceMappingURL=index.js.map

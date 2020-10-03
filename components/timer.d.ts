@@ -4,5 +4,5 @@ interface TimerProps {
     action: any;
     interval?: number;
 }
-declare const TimerComponent: React.FC<TimerProps>;
-export default TimerComponent;
+export declare const TimerComponent: React.FC<TimerProps>;
+export {};

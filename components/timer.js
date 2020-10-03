@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TimerComponent = void 0;
 const react_1 = __importDefault(require("react"));
-const TimerComponent = (props) => {
+exports.TimerComponent = (props) => {
     const { on, action, interval } = props;
     react_1.default.useEffect(() => {
         let timer = null;
@@ -19,5 +20,4 @@ const TimerComponent = (props) => {
     });
     return null;
 };
-exports.default = TimerComponent;
 //# sourceMappingURL=timer.js.map

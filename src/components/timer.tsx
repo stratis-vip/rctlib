@@ -6,7 +6,7 @@ interface TimerProps {
   interval?: number;
 }
 
-const TimerComponent: React.FC<TimerProps> = (props) => {
+export const TimerComponent: React.FC<TimerProps> = (props) => {
   const { on, action, interval } = props;
 
   React.useEffect(() => {
@@ -23,5 +23,3 @@ const TimerComponent: React.FC<TimerProps> = (props) => {
 
   return null;
 };
-
-export default TimerComponent;
