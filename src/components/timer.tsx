@@ -1,6 +1,6 @@
 import React from "react";
 
-interface TimerProps {
+export interface TimerProps {
   on: boolean;
   action: any;
   interval?: number;

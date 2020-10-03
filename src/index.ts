@@ -1,4 +1,4 @@
-import {TimerComponent} from './components/timer';
-import {TimeComponent} from './components/time'
+import {TimerComponent,TimerProps} from './components/timer';
+import {TimeComponent,Description} from './components/time'
 
-export {TimerComponent, TimeComponent}
+export {TimerComponent, TimerProps, TimeComponent,Description}
