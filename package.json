@@ -8,7 +8,10 @@
     "build": "tsc"
   },
   "keywords": [
-    "react", "components", "timer", "time"
+    "react",
+    "components",
+    "timer",
+    "time"
   ],
   "homepage": "https://github.com/stratis-vip/rctlib",
   "author": "Stratis Christodoulou",

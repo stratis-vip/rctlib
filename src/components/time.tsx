@@ -46,7 +46,5 @@ const numberToTime = (s: number, dscrptns?:Description) => {
     daysString += `${days} ${descriptions.days} `;
   }
   return `${daysString} ${hours
-    .toString().padStart(2, "0")}:
-    ${mins.toString().padStart(2, "0")}:
-    ${Math.floor(s).toString().padStart(2, "0")}`;
+    .toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${Math.floor(s).toString().padStart(2, "0")}`;
 };
